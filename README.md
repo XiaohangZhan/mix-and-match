@@ -37,7 +37,7 @@ cd Alexnet/colorize
 Then edit `train_graph.prototxt` and `finetune_seg.prototxt` to specify "source" and "root_dir" in
 the data layer.
 ```
-sh run_graph.sh # or use trained models in [link](https://drive.google.com/drive/folders/1dAA1aWTll_GAgpgYdYJnhrqY2pEydWiv?usp=sharing)
+sh run_graph.sh # or use trained models in the Google Drive folder.
 sh run_seg.sh
 ```
 
