@@ -1,0 +1,4 @@
+*/*/log
+*/*/snapshot
+*.caffemodel
+*.caffemodel.h5

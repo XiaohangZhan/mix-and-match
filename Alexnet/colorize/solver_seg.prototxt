@@ -1,0 +1,16 @@
+train_net: "finetune_seg.prototxt"
+display: 10
+lr_policy: "multistep"
+stepvalue: 24000
+stepvalue: 36000
+stepvalue: 40000
+gamma: 0.1
+base_lr: 1e-2
+momentum: 0.9
+iter_size: 4
+max_iter: 42000
+weight_decay: 0.0005
+snapshot: 12000
+snapshot_prefix: "snapshot/seg"
+average_loss: 1000
+device_id: 0

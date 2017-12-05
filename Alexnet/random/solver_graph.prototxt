@@ -1,0 +1,14 @@
+train_net: "train_graph.prototxt"
+base_lr: 1e-2
+momentum: 0.9 
+weight_decay: 0.0005
+iter_size: 1
+lr_policy: "step"
+gamma: 0.1 
+stepsize: 6000
+display: 10
+max_iter: 8000
+snapshot: 8000
+snapshot_prefix: "snapshot/graph"
+solver_mode: GPU
+device_id: 0
