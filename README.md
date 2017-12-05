@@ -15,7 +15,7 @@ Python:
     cv2
 
 ### Before Start
-1. Download pre-trained models in [link](https://drive.google.com/drive/folders/1dAA1aWTll_GAgpgYdYJnhrqY2pEydWiv?usp=sharing) to `pretrain`
+1. Download pre-trained models in [link](https://drive.google.com/drive/folders/1dAA1aWTll_GAgpgYdYJnhrqY2pEydWiv?usp=sharing) to `pretrain`. (You can also find trained `graph_iter_xxx.caffemodel` which can directly be fine-tuned for segmentation.)
 
 2. Download PASCAL VOC 2012 augmented dataset and CityScapes dataset to a proper position.
 
@@ -37,7 +37,7 @@ cd Alexnet/colorize
 Then edit `train_graph.prototxt` and `finetune_seg.prototxt` to specify "source" and "root_dir" in
 the data layer.
 ```
-sh run_graph.sh
+sh run_graph.sh # or use trained models in [link](https://drive.google.com/drive/folders/1dAA1aWTll_GAgpgYdYJnhrqY2pEydWiv?usp=sharing)
 sh run_seg.sh
 ```
 

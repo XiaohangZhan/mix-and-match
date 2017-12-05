@@ -4,7 +4,7 @@ export PYTHONPATH="../../caffe/python:$PYTHONPATH"
 #datadir=/PATH/TO/YOUR/DATA/ROOT
 datadir=/DATA/xhzhan
 prefix=snapshot/seg_iter
-iter=40000
+iter=42000
 dsr=2 # downsample rate
 while [ ! -f ${prefix}_${iter}.caffemodel ]; do
     sleep 1m
