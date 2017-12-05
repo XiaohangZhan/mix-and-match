@@ -2,3 +2,4 @@
 */*/snapshot
 *.caffemodel
 *.caffemodel.h5
+*.pyc
