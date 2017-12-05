@@ -2,7 +2,7 @@ import os
 import warnings
 import numpy as np
 import cv2
-import create_triplet_patch
+import create_patch
 import caffe
 import pdb
 
@@ -45,7 +45,7 @@ class RandomSamplingLayer(caffe.Layer):
         for i in range(bottom[0].data.shape[0]):
             img = bottom[0].data[i,...].transpose((1,2,0)).copy()
             seg = bottom[1].data[i,...].transpose((1,2,0)).copy()
-            patch, cls = create_triplet_patch.createRandomPatchImg(img, seg, self.num_cand, [self.minsz, self.maxsz], 0.1, self.output_size, by_ovlp=self.by_ovlp, show=False)
+            patch, cls = create_patch.createRandomPatchImg(img, seg, self.num_cand, [self.minsz, self.maxsz], 0.1, self.output_size, by_ovlp=self.by_ovlp, show=False)
             if patch.shape[0] != self.num_cand:
                 raise Exception("Number of patches not consistent: %d vs. %d" % (patch.shape[0], self.num_cand))
             for k in range(patch.shape[0]):
