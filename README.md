@@ -2,8 +2,6 @@
 
 ### Paper
 
-Arxiv:
-
 Xiaohang Zhan, Ziwei Liu, Ping Luo, Xiaoou Tang, Chen Change Loy, ["Mix-and-Match Tuning for Self-Supervised Semantic Segmentation"](https://arxiv.org/abs/1712.00661), AAAI 2018
 
 Project Page:
@@ -23,7 +21,7 @@ Python:
 
     For PASCAL VOC 2012, create standard training list as shown in `data/pascal/train.txt` and validation list as shown in `data/pascal/val.txt`
 
-    For CityScapes, create standard training list as shown in `data/cityscapes/train.txt` and validation list asn shown in `data/cityscapes/val.txt`
+    For CityScapes, create standard training list as shown in `data/cityscapes/train.txt` and validation list as shown in `data/cityscapes/val.txt`
 
 3. Build caffe with cmake
     ```
