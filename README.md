@@ -58,3 +58,6 @@ Testing results are saved in `snapshot/seg_iter_xxx/` by default.
  year = {2018} 
 }
 ```
+
+### Acknowledgement
+The CAFFE is forked from [https://github.com/yjxiong/caffe](https://github.com/yjxiong/caffe)
