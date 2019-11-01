@@ -50,8 +50,8 @@ Testing results are saved in `snapshot/seg_iter_xxx/` by default.
 
 ### Citing Mix-and-Match
 ```
-@inproceedings{zhan2018m&m,
- author = {Xiaohang Zhan, Ziwei Liu, Ping Luo, Xiaoou Tang, and Chen Change Loy},
+@inproceedings{zhan2018mix,
+ author = {Zhan, Xiaohang and Liu, Ziwei and Luo, Ping and Tang, Xiaoou and Loy, Chen Change},
  title = {Mix-and-Match Tuning for Self-Supervised Semantic Segmentation},
  booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
  month = {February},
